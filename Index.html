@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos/style.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="Images/Logo.png" alt="logo">
+    </header>
+    <main>
+        <section class="seccion_1">
+            <div class="contenedor_caja_texto">
+                <textarea placeholder="Ingrese el texto aqui"class="caja_texto"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="Images/alerta.svg" alt="">
+                <p> Solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="contenedor_botones">
+                <input type="button" class="btn-encriptador"
+                value="Encriptar">
+                <input type="button" class="btn-desencriptador"
+                value="Desencriptadar">
+            </div>
+
+        </section>
+        <section class="seccion_2">
+            <div class="contenedor_muneco">
+                <img src="Images/Muñeco.png" alt="muneco">
+            </div>
+            <div class="contenedor_parrafo">
+                <h3>Ningun mensaje fue <br> encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o <br>desencriptar</p>
+            </div>
+            <div class="contenedor-copiar">
+                <input type="button" class="btn-copiar" value="Copiar">
+            </div>
+            <div class="contenedor_resultado">
+                <p class="texto_resultado"></p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
